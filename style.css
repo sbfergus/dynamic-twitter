@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.twitterContainer {
+  width: 600px;
+  margin: auto;
+}
+
+.bi {
+  color: #55acee;
+}
+
+.bi-arrow-left {
+    font-size: 1.8rem;
+    padding: 20px;
+}
+
+.bi-patch-check-fill {
+  padding: 5px;
+}
+
+.nameCheck {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+}
+
+p, .follow {
+  color: #7b7b7b;
+}
+
+#coverPic {
+  width: 100%;
+}
+
+.middleContainer .circularBox {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.userPic {
+  width: auto;
+  height: 100%;
+}
+
+.middleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middleContainerLeft {
+  position: relative;
+  bottom: 75px;
+  left: 8px;
+}
+
+#joined {
+  margin: 10px 0px;
+}
+
+.bi-calendar3 {
+  color: #7b7b7b;
+}
+
+.bold {
+  font-weight: 600;
+  color: black;
+}
+
+.middleContainerRight {
+  position: relative;
+  top: 8px;
+  right: 12px;
+}
+
+.middleContainerRight button {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #55acee;
+  font-weight: 600;
+}
+
+.bottomContainer {
+  position: relative;
+  bottom: 40px;
+}
+
+.tweetMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.tweetMenu h2 {
+  color: #7b7b7b;
+  font-size: 1rem;
+  border-bottom: 5px solid #55acee;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.tweet {
+  border-bottom: 2px solid #cfcfcf;
+  display: flex;
+  padding-top: 5px;
+}
+
+.tweet .circularBox {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  top: 5px;
+  left: 10px;
+}
+
+.tweet > p {
+  color: black;
+}
+
+.tweetName h3 {
+  font-size: 16px;
+}
+
+.tweetName>* {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.tweetHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweetContent {
+  padding: 5px;
+  position: relative;
+  left: 15px;
+  width: 88%;
+}
+
+.tweetContent > p {
+  color:black;
+}
+
+.tweetFooter {
+  display: flex;
+  justify-content: space-between;
+  color: #7b7b7b;
+  padding: 10px;
+  width: 80%;
+}
+
